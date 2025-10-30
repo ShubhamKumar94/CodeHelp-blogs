@@ -43,5 +43,4 @@ This project displays beautiful blog cards with images, titles, author informati
 
 1. **Clone this repository**
 2. git clone https://github.com/your-username/codehelp-blogs.git
-   ```bash
-   git clone https://github.com/your-username/codehelp-blogs.git
+   

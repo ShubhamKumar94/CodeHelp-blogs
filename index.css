@@ -7,7 +7,12 @@
 body{
     height:100%;
     width: 100%;
-   
+    font-family: 'Inter', 'Poppins', sans-serif;
+    background-color: #f9fafb;
+    color: #2c2929;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+ 
 }
 .error_message{
     display: none;
@@ -26,7 +31,7 @@ body{
     }
 }
 .container{
-    max-width: 90vw;
+    max-width: 85vw;
     padding: 2rem 1rem;
     margin: 0 auto;
     
@@ -39,7 +44,7 @@ a{
 }
 .header_title{
     margin-bottom: 1rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
     line-height: 2rem;
@@ -47,19 +52,24 @@ a{
 .header_desc{
     max-width: 568px;
     text-align:center;
-    color: rgb(105, 99, 99);
+    color: rgb(143, 131, 131);
     margin: 0   auto;
 }
 .main_container{
     display:grid;
-    gap:1.5rem;
+    gap:1rem;
     grid-template-columns: repeat(1,1fr);
-
+    
+}
+@media (max-width:772px){
+    .container{
+        max-width: 80vw;
+        margin: 0 auto;
+    }
 }
 
 
-
-@media (min-width:700px) {
+@media (min-width:772px) {
     
     .main_container{
         grid-template-columns: repeat(2,1fr);
@@ -67,7 +77,7 @@ a{
     
 }
 
-@media (min-width:1050px) {
+@media (min-width:1138px) {
     
     .main_container{
         grid-template-columns: repeat(3,1fr);
@@ -86,7 +96,7 @@ a{
 .card_container{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(235, 220, 220);
+    border: 1px solid rgb(236, 228, 228);
     border-radius:8px;
     overflow: hidden;
 }
@@ -127,7 +137,8 @@ a{
     color:rgb(60, 60, 219)
 }
 .card_desc{
-    color:rgb(113, 107,107)
+   color: rgb(131, 122, 122);
+   
 }
 .card_footer_container{
     display: flex;
@@ -156,14 +167,15 @@ a{
     color:rgb(38,38,149)
 }
 .author_date{
-    color:rgb(136,126,126)
+    font-size: 0.75rem;
+    color:rgb(175, 161, 161)
 }
 
 .card_tag_container{
     font-size:0.79rem;
-    border:1px solid rgb(136, 120, 120);
+    border:1px solid rgb(212, 195, 195);
     border-radius: 4px;
     line-height: 1.3rem;
     padding: 0.25rem 0.5rem;
-    color:rgb(126, 120, 120)
+    color:rgb(175, 161, 161)
 }
