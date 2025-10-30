@@ -137,6 +137,7 @@ a{
     color:rgb(60, 60, 219)
 }
 .card_desc{
+    font-size: 0.8rem;
    color: rgb(131, 122, 122);
    
 }
